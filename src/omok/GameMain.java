@@ -1,10 +1,11 @@
 package omok;
 
+import omok.view.GUI;
+
 public class GameMain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		new GUI("¿À¸ñ");
 	}
 
 }
