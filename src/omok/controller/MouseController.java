@@ -44,5 +44,6 @@ public class MouseController extends MouseAdapter {
 			gmc.init();
 			board.repaint();
 		}
+		System.out.println("over");
 	}
 }
