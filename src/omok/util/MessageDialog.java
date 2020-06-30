@@ -13,6 +13,11 @@ public class MessageDialog {
 		message(String.format("%s돌 승리!", colorKor));
 	}
 	
+	public void sixStonesMessage(GUI gui) {
+		this.gui = gui;
+		message("육목은 둘 수 없습니다!");
+	}
+	
 	public void message(String msg) {
 		JOptionPane.showMessageDialog(this.gui, msg, "", JOptionPane.INFORMATION_MESSAGE);
 	}

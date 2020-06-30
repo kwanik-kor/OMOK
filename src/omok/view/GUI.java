@@ -22,6 +22,7 @@ public class GUI extends JFrame{
 		setLocation(300, 100);
 		setPreferredSize(dim);
 		pack();
+		gmc.init(this);
 		Board board = new Board(size, gmc);
 		setContentPane(board);
 		MouseController mouse_event = new MouseController(gmc, size, board, this);
